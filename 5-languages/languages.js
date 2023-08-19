@@ -1,4 +1,3 @@
-
 // Домашнее задание "Упарвление потоком"
 
 // Мне сначала было проще записать в таком виде, а уже из него перевести в swith
@@ -20,38 +19,38 @@ else {
 
 // Первый способ switch
 
-switch(language) {
+switch (language) {
   case 'en':
-      console.log('Hello');
-      break;
+    console.log('Hello');
+    break;
   case 'ru':
-      console.log('Привет');
-      break;
+    console.log('Привет');
+    break;
   case 'de':
-      console.log('Hallo');
-      break;
+    console.log('Hallo');
+    break;
   case 'sp':
-      console.log('Hola');
-      break;
-      default:
-      console.log('Я не смог распознать язык');
-} 
+    console.log('Hola');
+    break;
+  default:
+    console.log('Я не смог распознать язык');
+}
 
 // Второй способ switch
 
-switch(true) {
+switch (true) {
   case language === 'en':
-      console.log('Hello');
-      break;
+    console.log('Hello');
+    break;
   case language === 'ru':
-      console.log('Привет');
-      break;
+    console.log('Привет');
+    break;
   case language === 'de':
-      console.log('Hallo');
-      break;
+    console.log('Hallo');
+    break;
   case language === 'sp':
-      console.log('Hola');
-      break;
-      default:
-      console.log('Я не смог распознать язык');
+    console.log('Hola');
+    break;
+  default:
+    console.log('Я не смог распознать язык');
 }

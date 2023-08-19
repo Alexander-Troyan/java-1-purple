@@ -1,30 +1,27 @@
+/* Домашнее задание "Основы"*/
 
-/* Домашнее задание 
-      "Основы"*/
-
-//Переменные 
+//Переменные
 
 let adressLat = 13;
 let adressLong = 21;
 let positionLat = 10;
 let positionLong = 7;
 
-let differenceOne = adressLat - positionLat; // разница координат 1
-      console.log(differenceOne);
-      
-let differenceTwo = adressLong - positionLong; // разница координат 2
-      console.log(differenceTwo);
+const differenceLat = adressLat - positionLat; // разница координат 1
+console.log(differenceLat);
 
-let squared1 = differenceOne **2; // возведение в степень координаты 1
-      console.log(squared1);
+const differenceLong = adressLong - positionLong; // разница координат 2
+console.log(differenceLong);
 
-let squared2 = differenceTwo **2; // возведение в степень координаты 2
-      console.log(squared2);
+const differenceLatInTwo = differenceLat ** 2; // возведение в степень координаты 1
+console.log(differenceLatInTwo);
 
-let sumsSquared = squared1 + squared2; //сумма координат в степени
-      console.log(sumsSquared);
+const differenceLongInTwo = differenceLong ** 2; // возведение в степень координаты 2
+console.log(differenceLongInTwo);
 
-      console.log(Math.sqrt(sumsSquared) + ' соствляет расстояние между точками'); //извлекаем корень и получаем ответ
+const sumCoordinatesSquared = differenceLatInTwo + differenceLongInTwo; //сумма координат в степени
+console.log(sumCoordinatesSquared);
 
-
-
+console.log(
+      Math.sqrt(sumCoordinatesSquared) + ' соствляет расстояние между точками'
+); //извлекаем корень и получаем ответ
