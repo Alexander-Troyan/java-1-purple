@@ -2,10 +2,10 @@
 
 //Переменные
 
-let adressLat = 13;
-let adressLong = 21;
-let positionLat = 10;
-let positionLong = 7;
+const adressLat = 13;
+const adressLong = 21;
+const positionLat = 10;
+const positionLong = 7;
 
 const differenceLat = adressLat - positionLat; // разница координат 1
 console.log(differenceLat);
